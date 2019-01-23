@@ -24,11 +24,15 @@
         <input type="checkbox" value="Qualifying" name="Filing_status">Qualifying widow(er)
         </form>
         <hr> 
-
-Your first name and initial &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Last name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Your social security number
 <form>
-    <input type="text" name="Fname" onkeyup="this.value=this.value.replace(/[^a-zA-Z]/g,'')">&nbsp
-    <input type="text" name="Lname" onkeyup="this.value=this.value.replace(/[^a-zA-Z]/g,'')">&nbsp
+Your first name and initial
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ Last name 
+ &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ Your social security number
+ <br>
+    <input type="text" name="Fname" onkeyup="this.value=this.value.replace(/[^a-zA-Z]/g,'')">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="text" name="Lname" onkeyup="this.value=this.value.replace(/[^a-zA-Z]/g,'')">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
     <input type="text" name="SSN" required minlength="9" maxlength="9" onkeyup="this.value=this.value.replace(/\D/g,'')">
 </form>
 
@@ -41,11 +45,16 @@ Your first name and initial &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&n
         <input type="checkbox" value="blind" name="standard deduction"> You are blind
         </form>
         <hr> 
+<form>
+If joint return, spouse's first name and initial 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+Last name 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+Spouse’s social security number 
+<br>
 
-If joint return, spouse's first name and initial &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Last name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Spouse’s social security number 
-<form>&nbsp&nbsp&nbsp&nbsp&nbsp
-    <input type="text" name="Fname" onkeyup="this.value=this.value.replace(/[^a-zA-Z]/g,'')">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <input type="text" name="Lname" onkeyup="this.value=this.value.replace(/[^a-zA-Z]/g,'')">&nbsp&nbsp&nbsp&nbsp
+    <input type="text" name="Fname" onkeyup="this.value=this.value.replace(/[^a-zA-Z]/g,'')">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    <input type="text" name="Lname" onkeyup="this.value=this.value.replace(/[^a-zA-Z]/g,'')">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
     <input type="text" name="SSSN" required minlength="9" maxlength="9" onkeyup="this.value=this.value.replace(/\D/g,'')"></form>
     <hr>
 
@@ -210,6 +219,36 @@ your records.
 Firm's address ▶ <input type="text" name="address" >
 </form>
 
+<pre><span style="font-size:16px">
+    1 Wages, salaries, tips, etc. Attach Form(s) W-2 . . . . . . . . . . . . . . . .                                                  1  <input type="text" name="address" >
+    2a Tax-exempt interest . . .        2a<input type="text" name="address" > b Taxable interest . . .                                              2b  <input type="text" name="address" >
+    3a Qualified dividends . . .        3a<input type="text" name="address" > b Ordinary dividends . .                                              3b  <input type="text" name="address" >
+    4a IRAs, pensions, and annuities .  4a<input type="text" name="address" > b Taxable amount . . .                                                4b  <input type="text" name="address" >
+    5a Social security benefits . .     5a<input type="text" name="address" > b Taxable amount . . .                                                5b  <input type="text" name="address" >
+    6 Total income. Add lines 1 through 5. Add any amount from Schedule 1, line 22 <input type="text" name="address" >. . . . .                     6   <input type="text" name="address" >
+    7 Adjusted gross income. If you have no adjustments to income, enter the amount from line 6; otherwise,
+    subtract Schedule 1, line 36, from line 6 . . . . . . . . . . . . . . . . .                                                     7   <input type="text" name="address" >
+    8 Standard deduction or itemized deductions (from Schedule A) . . . . . . . . . . . .                                           8   <input type="text" name="address" >
+    9 Qualified business income deduction (see instructions) . . . . . . . . . . . . . .                                            9   <input type="text" name="address" >
+    10 Taxable income. Subtract lines 8 and 9 from line 7. If zero or less, enter -0- . . . . . . . .                               10  <input type="text" name="address" >
+    11 a Tax (see inst.)<input type="text" name="address" > (check if any from: 1 <input type="checkbox" value="dependent" name="Election">Form(s) 8814 2 <input type="checkbox" value="dependent" name="Election">Form 4972 3<input type="checkbox" value="dependent" name="Election"><input type="text" name="address" >)
+    b Add any amount from Schedule 2 and check here . . . . . . . . . . . . ▶<input type="checkbox" value="dependent" name="Election">                                                      11  <input type="text" name="address" >
+    12 a Child tax credit/credit for other dependents<input type="text" name="address" > b Add any amount from Schedule 3 and check here ▶<input type="checkbox" value="dependent" name="Election">         12  <input type="text" name="address" >
+    13 Subtract line 12 from line 11. If zero or less, enter -0- . . . . . . . . . . . . . .                                          13  <input type="text" name="address" >
+    14 Other taxes. Attach Schedule 4 . . . . . . . . . . . . . . . . . . . .                                                         14  <input type="text" name="address" >
+    15 Total tax. Add lines 13 and 14 . . . . . . . . . . . . . . . . . . . .                                                         15  <input type="text" name="address" >
+    16 Federal income tax withheld from Forms W-2 and 1099 . . . . . . . . . . . . .                                                  16  <input type="text" name="address" >
+    17 Refundable credits: a EIC (see inst.)<input type="text" name="address" > b Sch. 8812<input type="text" name="address" > c Form 8863<input type="text" name="address" >
+    Add any amount from Schedule 5<input type="text" name="address" > . . . . . . . . . . . . . .                                                    17  <input type="text" name="address" >
+    18 Add lines 16 and 17. These are your total payments . . . . . . . . . . . . . .                                                 18  <input type="text" name="address" ><hr>
+    19 If line 18 is more than line 15, subtract line 15 from line 18. This is the amount you overpaid . . . .                        19  <input type="text" name="address" >
+    20a Amount of line 19 you want refunded to you. If Form 8888 is attached, check here . . . . ▶<input type="checkbox" value="dependent" name="Election">                                 20a <input type="text" name="address" >
+    ▶ b Routing number <input type="text" name="SSSN" required minlength="9" maxlength="9" onkeyup="this.value=this.value.replace(/\D/g,'')">▶ c Type: <input type="checkbox" value="dependent" name="Election">Checking <input type="checkbox" value="dependent" name="Election">Savings
+    ▶ d Account number <input type="text" name="SSSN" required minlength="17" maxlength="17" onkeyup="this.value=this.value.replace(/\D/g,'')">
+    21 Amount of line 19 you want applied to your 2019 estimated tax . . ▶21<input type="text" name="address" >
+    22 Amount you owe. Subtract line 18 from line 15. For details on how to pay, see instructions . . . ▶                            22  <input type="text" name="address" >
+    23 Estimated tax penalty (see instructions) . . . . . . . . ▶ 23<input type="text" name="address" >
+</span></pre>
 
 </body>
 </html>
